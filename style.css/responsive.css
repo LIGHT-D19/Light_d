@@ -42,10 +42,12 @@
     }
     section .about .left .text{
         /* background: linear-gradient(to bottom,rgb(151, 151, 131),rgb(151, 151, 131), rgb(214, 211, 19)); */
+        text-decoration:underline;
         padding-left: 0px;
         margin-top: 15px;
-        margin-left: 10px;
+        margin-left: 50px;
         margin-right: 0px;
+        /* text-align: center; */
         /* border-radius: 25px; */
     }
     .about .left .texte .deux{
@@ -59,11 +61,14 @@
         padding-left: 10px;
     }
     .about .left .texte {
-        padding-left: 5px !important;
+        padding-left: 10px !important;
     }
     .about .left .tech img {
         width: 60px;
         margin-right: 10px !important;
+    }
+    .about .left .tech{
+        margin-left: 20px !important;
     }
     section .formulaire {
         /* background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../images/pexels-divinetechygirl-1181244.jpg
@@ -79,5 +84,5 @@
     }
 }
 @media only screen and (min-device-width: 481px) and (max-device-width: 768px){
-    
+
 }
