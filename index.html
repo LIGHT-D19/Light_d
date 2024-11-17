@@ -1,57 +1,131 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css/index.css">
-    <link rel="stylesheet" href="style.css/bootstrap.min.css">
-    <title>Light_D</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css/index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css/responsive.css">
+  <link rel="stylesheet" href="style.css/bootstrap.min.css">
+  <title>Light_D</title>
 </head>
+
 <body>
-<header>
-  <nav class="navbar navbar-expand-lg ">
-    <div class="container">
-      <a class="navbar-brand me-5  " href="index.html">
-        <!-- <img src="/images/sample_0 (5).jpg" alt=""> -->
-         <span>LIGHT_D</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="">Accueil</a>
-          <a class="nav-link" href="pageAbout.html">A propos de moi</a>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container" data-aos="fade-right">
+        <a class="navbar-brand me-5  " href="index.html">
+          <!-- <img src="/images/sample_0 (5).jpg" alt=""> -->
+          <span>LIGHT_Dev</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="">Accueil</a>
+            <a class="nav-link" href="#about">A propos</a>
+            <!-- <a class="nav-link" href="#service">Service</a> -->
+            <a class="nav-link" href="#contact">contact</a>
+            <a class="nav-link" href="CV.pdf">Mon CV</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <div class="banner w-0 ">
-    <div class=" right">
-      <img src="images/sample_0 (5).jpg" alt="">
-      <p class="frist">Je suis Raphael DOSSEH</p>
-      <p>Alias LIGHT_D</p>
-      <p>Entrepreneur en Developpement Web & Mobile</p>
-      <p>basé au TOGO à Kara<tp>
-    </div>
-    <div class="left">
-      <span>Passionate creating great</span>
-      <br>
-      <span>experiences for Digital</span>
-      <br>
-      <span>Product</span>
-      <br>
-      <a href="https://light-d19.github.io/Cabinet-de-formation/">
-        <button>Mon Portfolio</button>
-      </a>
-      <a href="mailto:Light1999d@gmail.com">
-        <button class="deux">Me contacter</button>
-      </a>
-    </div>
-  </div>
-</header>
-</section>
+    </nav>
+    <div class="banner w-0 ">
+      <div class="left" data-aos="fade-left">
+        <p class="frist">Je suis Raphael DOSSEH</p>
+        <p>Alias LIGHT_D</p>
+        <p>Developpeur Fullstack
+        </p>
+        <p>basé au TOGO à Kara
+        <p>
 
- <script src="/js/bootstrap.bundle.min.js"></script>   
+          <!-- <a href="https://light-d19.github.io/Cabinet-de-formation/">
+          <button>Mon Portfolio</button>
+        </a> -->
+          <a href="mailto:Light1999d@gmail.com">
+            <button class="deux">Me contacter</button>
+          </a>
+      </div>
+      <div class=" right" data-aos="fade-left">
+        <img src="images/sample_0 (5).jpg" alt="">
+
+      </div>
+
+    </div>
+  </header>
+  <section>
+    <div class="about d-flex" id="about">
+      <div class=" right" data-aos="fade-bottom">
+        <img src="images/sample_0 (5).jpg" width="500" alt="">
+
+      </div>
+      <div data-aos="fade-right" class="left">
+        <h1 class="text">A propos de moi</h1>
+        
+        
+        <div class="texte ps-4">
+          <p>Je suis Raphael DOSSEH,Je suis un Developpeur fullstack basé au Togo à Kara
+            <br>J'ai de l'experience dans le developpement web et je suis passionné par la technologie.
+            <br>
+            <a href="CV.pdf">
+              <button class="deux">Telechargez mon CV</button>
+            </a>            
+          </p>
+          
+        </div>
+        <div data-aos="fade-left" >
+          <h1 class="text mb-4" >Technologies</h1>
+        </div>
+        <div class="tech" data-aos="fade-right">
+          <img src="images/tech/html.png" alt="" width="110">
+          <img src="images/tech/css.png" alt="" width="170">
+          <img src="images/tech/php.png" alt="" class="me-5" width="110">
+          <img src="images/tech/JS.png" alt="" class="me-5" width="110">
+          <br>
+          <br>
+          <img src="images/tech/jq.png" alt="" class="me-5" width="110">
+          
+          <img src="images/tech/boot.png" class="me-5" alt="" width="110">
+          <img src="images/tech/mate.png" class="me-5" alt="" width="110">
+          <img src="images/tech/tail.png" class="me-5" alt="" width="110">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="formulaire  text-black" id="contact" >
+      <div data-aos="fade-bottom">
+        <form class="w-50">
+          <h2 class="text-light mb-2">Nous contacter</h2>
+          <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+          </div>
+          <!-- <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+          </div> -->
+          <div class="form-floating mb-3">
+              <textarea name="message" placeholder="Message" id="texte" class="form-control"></textarea>
+              <label for="texte">Message</label>
+          </div>
+          <button type="submit" class="btn btn-warning form-control w-100 ">Submit</button>
+      </form>
+      </div>
+  </div>
+  </section>
+
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
