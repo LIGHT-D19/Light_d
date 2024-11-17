@@ -13,7 +13,7 @@ header{
 
 header nav{
     /* background: linear-gradient(to bottom,rgba(151, 151, 131, 0.555), rgb(214, 211, 19)); */
-    padding: 20px 50px;
+    padding: 20px 50px !important;
     /* background-color: aqua; */
 }
 header nav div a {
