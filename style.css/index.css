@@ -12,18 +12,14 @@ header{
 }
 
 header nav{
-    /* background: linear-gradient(to bottom,rgba(151, 151, 131, 0.555), rgb(214, 211, 19)); */
     padding: 20px 50px !important;
-    /* background-color: aqua; */
 }
 header nav div a {
     margin-left: 40px !important;
 }
-/* header div a img {
-    width: 60px;
-    border-radius: 50px;
-    
-} */
+header nav div a img{
+    border-radius: 25px;
+}
 header div a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -34,8 +30,6 @@ header div a span {
 }
 
 header .banner {
-    /* background-color:rgb(214, 211, 19); */
-    /* background-color: rgb(116, 112, 112) ; */
     height: 100vh;
     padding-top: 30px;
     display: flex;
@@ -49,7 +43,8 @@ header .banner .right{
     font-size: 20px;
 }
 header .banner .right .frist{
-    font-size: 40px;
+    
+    font-size: 30px;
 }
 header .banner .right img {
     width: 400px;
@@ -60,8 +55,9 @@ header .banner .right img {
 }
 header .banner .left{
     margin-top: 130px;
-    margin-right: 0px;
+    margin-left: 175px;
     font-size: 35px;
+    text-align: center;
 }
 header .banner .left button {
     font-size: 20px;
@@ -93,7 +89,7 @@ header .banner .about span {
 }
 section .about {
     
-    height: 100vh;
+    height: 105vh;
     padding-top: 80px;
     /* margin-right: 50px; */
     padding-left: 100px;
@@ -111,9 +107,8 @@ section .about .left{
     padding-top: 0px;
 }
 section .about .left .text{
-    /* background: linear-gradient(to bottom,rgb(151, 151, 131),rgb(151, 151, 131), rgb(214, 211, 19)); */
+    text-decoration:underline;
     padding-left: 20px;
-    margin-right: 368px;
     border-radius: 25px;
     
 }
@@ -127,8 +122,6 @@ header .banner .about span button {
 }
 
 section .formulaire {
-    /* background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4),rgba(0,0,0,.4)),url(../images/pexels-divinetechygirl-1181244.jpg
-    ); */
     background-color: black;
     height: 50vh;
     background-position: center;
