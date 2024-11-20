@@ -5,7 +5,7 @@
     header .banner {
         padding-left: 0px;
         /* font-size: 30px !important; */
-        height: 45vh;
+        height: 42vh;
         display: flex;
         flex-direction: column;
     }
@@ -36,7 +36,7 @@
         gap: 0px;
         padding-top: 20px;
         padding-left: 0px;
-        height: 128vh;
+        height: 120vh;
     }
     section .about .right img {
         width: 200px;
