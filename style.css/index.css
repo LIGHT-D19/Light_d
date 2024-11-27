@@ -5,10 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     
-    
 }
 header{
-    background: linear-gradient(to right,rgb(151, 151, 131),rgb(151, 151, 131),rgb(156, 156, 119), rgb(214, 211, 19));
+    background-color:aliceblue;
 }
 
 header nav{
@@ -18,12 +17,13 @@ header nav div a {
     margin-left: 40px !important;
 }
 header nav div a img{
+    margin-left: 160px;
     border-radius: 25px;
 }
 header div a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+    font-size: 20px;
 }
+
 
 header div a span {
     font-size: 25px;
@@ -49,13 +49,13 @@ header .banner .right .frist{
 header .banner .right img {
     width: 400px;
     border-radius: 60px;
+    margin-left: 40px;
     color-scheme:initial ;
     margin-top: 100px;
-    /* margin-bottom: 50px; */
 }
 header .banner .left{
     margin-top: 130px;
-    margin-left: 175px;
+    margin-left: 185px;
     font-size: 35px;
     text-align: center;
 }
@@ -84,18 +84,14 @@ header .banner .left button.deux{
     color: rgb(255, 255, 255);
 }
 header .banner .about span {
-    /* margin-right: 10px; */
     font-size: 18px;
 }
-section .about {
-    
-    height: 105vh;
+section .about {   
+    height: 115vh;
     padding-top: 80px;
-    /* margin-right: 50px; */
     padding-left: 100px;
     color: rgb(0, 0, 0);
     gap: 50px;
-    
 }
 section .about .right img {
     width: 400px;
@@ -123,11 +119,49 @@ header .banner .about span button {
 
 section .formulaire {
     background-color: black;
-    height: 50vh;
+    height:50vh;
     background-position: center;
     background-size: cover;
     color: black;
-    padding-left: 450px;
-    padding-top: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+}
+.formulaire form {
+    width: 450px;
+}
+.formulaire img {
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+.une {
+    background-color:aliceblue;
+    padding-top: 80px;
+    padding-left: 180px;
+    padding-bottom: 50px;
+    height: 110vh;
+}
+.blocus {
+    gap: 40px;
 }
 
+.une .blocus .bloc .text{
+    text-align: left;
+    background-color: white;
+    padding:10px 20px;
+    padding-bottom: ;
+    width: 300px;
+    font-size: 20px;
+}
+.une .blocus .bloc {
+    box-shadow: 30px ;
+    transition: 0.4s;
+}
+.une .blocus .bloc:hover {
+    
+    transform: scale(1.1);
+    transition: 0.4s;
+}
